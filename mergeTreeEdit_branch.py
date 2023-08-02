@@ -2,7 +2,7 @@ import numpy as np
 import math
 from scipy.optimize import linear_sum_assignment
 
-from contourMergeTrees_helpers import *
+from .contourMergeTrees_helpers import *
         
 def branchMappingDistance(nodes1,topo1,rootID1,nodes2,topo2,rootID2,editCost,traceback=False):
     memT = dict()
